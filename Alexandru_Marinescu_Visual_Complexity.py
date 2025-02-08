@@ -250,7 +250,7 @@ support_vector_weight = support_vector_score / total_score
 
 print(f"Random Forest Weight: {random_forest_weight}, Ridge Weight: {ridge_weight}, Lasso Weight: {lasso_weight}, Support Vector Weight: {support_vector_weight}")
 
-# Weighted average of predictions
+######
 final_predictions = (random_forest_weight * random_forest_score_predictions +
                      ridge_weight * ridge_score_predictions +
                      lasso_weight * lasso_score_predictions +
